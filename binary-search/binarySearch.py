@@ -33,7 +33,7 @@ def binarySearch(search, first, last):
 index = binarySearch(search, 0, len(data) - 1)
 
 if index == -1:
-    print("No have\n", f"Searches: {str(searches)}")
+    print("No have\n" + f"Searches: {str(searches)}")
 
 else:
-    print(f"Found at index {index}\n", f"Searches: {str(searches)}")
+    print(f"Found at index {index}\n" + f"Searches: {str(searches)}")

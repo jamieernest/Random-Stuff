@@ -13,7 +13,7 @@ def binarySearch(search, first, last):
     if(first > last): return -1
 
     mid = (first + last) // 2
-    
+
     print(first, last)
     print(data[first:last + 1])
     print("Is " + str(data[mid]) + " the same as " + str(search) + "?")
@@ -35,7 +35,7 @@ def binarySearch(search, first, last):
 index = binarySearch(search, 0, len(data) - 1)
 
 if index == -1:
-    print("No have\n", f"Searches: {str(searches)}")
+    print("No have\n" + f"Searches: {str(searches)}")
 
 else:
-    print(f"Found at index {index}\n", f"Searches: {str(searches)}")
+    print(f"Found at index {index}\n" + f"Searches: {str(searches)}")
